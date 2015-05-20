@@ -10,6 +10,8 @@ namespace AzureTestApp.Controllers
     {
         public ActionResult Index()
         {
+
+            throw new Exception("Test");
             return View();
         }
 
